@@ -22,6 +22,12 @@ namespace HouseBuilder
             return this;
         }
 
+        public HouseBuilder AddWindow(WindowType windowType)
+        {
+            house.Windows.Add(windowType);
+            return this;
+        }
+
         public House Build()
         {
             if (house.Walls.Count < 4)

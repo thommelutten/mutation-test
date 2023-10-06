@@ -35,5 +35,17 @@ namespace HouseBuilder.Test
 
             Assert.That(exception.Message, Is.EqualTo("A house must have at least 4 walls."));
         }
+
+        [Test]
+        public void HouseBuilder_BuilderHouseWithWallsAndWindow_Success()
+        {
+            House house = House.CreateBuilder()
+                .AddWall(Material.Brick)
+                .AddWall(Material.Brick)
+                .AddWall(Material.Stone)
+                .AddWall(Material.Concrete)
+                .AddWindow(WindowType.Medium)
+                .Build();
+        }
     }
 }

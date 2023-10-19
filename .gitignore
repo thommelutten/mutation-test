@@ -2,3 +2,6 @@ obj
 bin
 .vs
 StrykerOutput
+.coverage
+TestResults
+coveragereport

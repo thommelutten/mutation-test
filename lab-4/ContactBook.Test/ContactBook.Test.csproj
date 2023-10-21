@@ -19,7 +19,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ContactBook\ContactBook.csproj" />
-    <ProjectReference Include="..\Phonebook\ContactBook.csproj" />
   </ItemGroup>
 
 </Project>

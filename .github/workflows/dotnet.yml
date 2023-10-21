@@ -12,7 +12,7 @@ on:
 jobs:
   build:
     env:
-      working-directory: ./lab-4
+      working-directory: lab-4
     runs-on: ubuntu-latest
 
     steps:
